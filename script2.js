@@ -1,5 +1,5 @@
 const quizform=document.querySelector('.form');
-const button=document.querySelector('#btnn');
+const button=document.querySelector('#btn');
 const correctans=["acute triangle","70","80,50,50","60,60,60"];
 let output=document.querySelector('.out');
 function results(){

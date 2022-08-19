@@ -5,18 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@600&family=Josefin+Sans:wght@300&family=League+Gothic&family=Mochiy+Pop+P+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="side1"></label>Enter length of triangle
-    <input type="number" name="side1" class="inp">
-    <label for="side2"></label>Enter breadth of triangle
-    <input type="number" name="side2" class="inp">
+    <div class="navbar">
+        <h1>Do You Know Triangles?</h1>
+        <nav>
+            <ul>
+                <li><a href="isTriangle.html">IsTriangle</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li>
+                <a href="area.html">Area and Hypotenuse</a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="lower">
+            <h1>Calculate Area and Hypotenuse Of Triangle--</h1>
+    <label for="side1" class="label"></label>Enter length of triangle
+    <input type="number" name="side1" class="inputs">
+    <label for="side2" class="label"></label>Enter breadth of triangle
+    <input type="number" name="side2" class="inputs">
     <button id="btn-hyp">calculate hypotenuse</button>
     <button id="btn-area">calculate area</button>
     <div class="out">
 
     </div>
     <div class="out2"></div>
+    </div>
     <script src="script3.js"></script>
 </body>
 </html>

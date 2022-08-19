@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,          initial-scale=1.0">
     <title>IsTriangle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@600&family=Josefin+Sans:wght@300&family=League+Gothic&family=Mochiy+Pop+P+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <label for="angle1"></label>Enter Angle 1 <input type="number" name="angle1" class="inputs">
-   <label for="angle2"></label>Enter Angle 2 <input type="number" name="angle2" class="inputs">
-   <label for="angle3"></label>Enter Angle 3 <input type="number" name="angle3" class="inputs">
+<body><div class="navbar">
+    <h1>Do You Know Triangles?</h1>
+    <nav>
+        <ul>
+            <li><a href="isTriangle.html">IsTriangle</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li>
+            <a href="area.html">Area and Hypotenuse</a>
+        </li>
+        </ul>
+    </nav>
+    </div>
+    <div class="lower">
+    <h1>Is Triangle--</h1>
+    <h3>(Enter angles and Check Whether Triangle is Formed or Not)</h3>
+   <label for="angle1" class="label"></label>Enter Angle 1 <input type="number" name="angle1" class="inputs">
+   <label for="angle2" class="label"></label>Enter Angle 2 <input type="number" name="angle2" class="inputs">
+   <label for="angle3" class="label"></label>Enter Angle 3 <input type="number" name="angle3" class="inputs">
    <button id="btn">Is Triangle??</button>
    <div class="out"></div>
    <script src="script.js"></script>
- 
+    </div>
 </body>
 </html>

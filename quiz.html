@@ -5,56 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle-quiz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@600&family=Josefin+Sans:wght@300&family=League+Gothic&family=Mochiy+Pop+P+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="navbar">
+        <h1>Do You Know Triangles?</h1>
+        <nav>
+            <ul>
+                <li><a href="isTriangle.html">IsTriangle</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li>
+                <a href="area.html">Area and Hypotenuse</a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="lower">
+            <h1>Lets Check your Knowledge--</h1>
     <form action="quiz.html" class="form">
-        <h2>Which Type Of Triangle is Formed Where Angle1=30 &#176; Angle2=60 &#176;and Angle3=45 &#176 ?</h2>
+        <h2>Q1--Which Type Of Triangle is Formed Where Angle1=30 &#176; Angle2=60 &#176;and Angle3=45 &#176 ?</h2>
         <label for="option1"></label>
         <input type="radio" name="question1"
-        value="obtuse triangle" id="option1" >obtuse triangle
+        value="obtuse triangle" id="option1" class="input" >obtuse triangle
         <label for="option2"></label>
         <input type="radio" name="question1"
-        value="acute triangle" id="option2" >acute triangle
+        value="acute triangle" id="option2" class="input">acute triangle
         <label for="option3"></label>
         <input type="radio" name="question1"
-        value="right triangle" id="option3" >right triangle
+        value="right triangle" id="option3"
+        class="input" >right triangle
 
-        <h2>What is the third angle Of Triangle Where Angle1=70 &#176; Angle2=40 &#176; ?</h2>
+        <h2>Q2--What is the third angle Of Triangle Where Angle1=70 &#176; Angle2=40 &#176; ?</h2>
         <label for="option4"></label>
         <input type="radio" name="question2"
-        value="40" id="option4" >40;
+        value="40" id="option4" class="input" >40
         <label for="option5"></label>
         <input type="radio" name="question2"
-        value="60" id="option5" >60
+        value="60" id="option5" class="input" >60
         <label for="option6"></label>
         <input type="radio" name="question2"
-        value="70" id="option6" >70
+        value="70" id="option6" class="input">70
 
-        <h2>Which of the following will form isosceles triangle?</h2>
+        <h2>Q3--Which of the following will form isosceles triangle?</h2>
         <label for="option7"></label>
         <input type="radio" name="question3"
-        value="40,30,70" id="option7" >40,30,70
+        value="40,30,70" id="option7" class="input" >40,30,70
         <label for="option8"></label>
         <input type="radio" name="question3"
-        value="60,60,20" id="option8" >60,60,20
+        value="60,60,20" id="option8" class="input" >60,60,20
         <label for="option9"></label>
         <input type="radio" name="question3"
-        value="80,50,50" id="option9" >80,50,50;
+        value="80,50,50" id="option9" class="input">80,50,50;
 
-        <h2>Which of the following will form equilateral triangle?</h2>
+        <h2>Q4--Which of the following will form equilateral triangle?</h2>
         <label for="option10"></label>
         <input type="radio" name="question4"
-        value="40,70,70" id="option7" >40,70, 70
+        value="40,70,70" id="option7" class="input" >40,70, 70
         <label for="option11"></label>
         <input type="radio" name="question4"
-        value="60,60,60" id="option8" >60,60,60
+        value="60,60,60" id="option8" class="input" >60,60,60
         <label for="option12"></label>
         <input type="radio" name="question4"
-        value="80,50,50" id="option9" >80,50,50;
+        value="80,50,50" id="option9" class="
+        input" >80,50,50;
     </form>
-    <button id="btnn">Check Result</button>
+    <button id="btn">Check Result</button>
     <div class="out"></div>
-
+</div>
     <script src="script2.js"></script>
 </body>
 </html>

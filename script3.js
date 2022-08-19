@@ -1,4 +1,4 @@
-const input=document.querySelectorAll('.inp');
+const input=document.querySelectorAll('.inputs');
 const button=document.querySelector('#btn-hyp');
 const output=document.querySelector('.out');
 const button2=document.querySelector('#btn-area');
